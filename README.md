@@ -8,9 +8,7 @@ This project demonstrates how to combine **Terraform** and **Ansible** to build 
 
 ---
 
-## 📌 TL;DR
-
-Use:
+## Use:
 - **Terraform** to provision infrastructure
 - **Ansible** to configure and deploy software
 
@@ -38,7 +36,7 @@ Ansible Playbooks (Configuration)
 ---
 
 ## 📂 Project Structure
-.
+```
 ├── terraform/
 │   ├── main.tf
 │   ├── variables.tf
@@ -49,6 +47,7 @@ Ansible Playbooks (Configuration)
 │   └── install_htop.yaml
 │
 └── README.md
+```
 
 ---
 
@@ -69,6 +68,7 @@ Ansible Playbooks (Configuration)
 cd terraform
 terraform init
 terraform apply
+```
 
 Terraform will create:
 
